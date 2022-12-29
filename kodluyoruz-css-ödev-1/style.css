@@ -1,0 +1,256 @@
+body{
+    background-color:rgb(235, 227, 227);
+    background-size: 100% 100%;
+    box-sizing: border-box;
+}
+.animate-charcter
+{
+   
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+  
+
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+header{
+    position: relative;
+}
+.navbar{
+    display: flex;
+    background-color:white;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    border-style: groove;
+    border-radius: 10px;
+    
+    
+    
+}
+.navbar .logo{
+  
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    
+
+}
+.navbar .logo h1{
+   font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+/*.navbar .logo h1:hover{
+    color: white;
+    transition: 0.7s;
+}
+.navbar .logo:hover{
+    background-color: black;
+    transition: 0. s;
+}*/
+.navbar ul li{
+    display: inline-block;
+    padding-right: 20px;
+    margin-right: 30px;
+    
+}
+.navbar ul li a{
+    font-family: monospace;
+    text-decoration: dotted;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+
+}
+.navbar ul li a:hover{
+    color: darkgreen;
+    transition: 0.4s;
+    
+}
+.navbar ul li a:active{
+    color: rgb(48, 92, 169);
+    
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+.grid-item-1{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.grid-item-2{
+    border: 1px solid;
+    border-radius: 10px;
+}
+.aside-bar{
+    margin-left: 10px;
+    
+}
+.btn{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    width: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+
+}
+.magaza{
+    display: flex;
+    justify-content: space-around;
+}
+.geo{
+    width: 100px;
+    
+    
+}
+.giris{
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-2 img{
+    width: 400px;
+    
+}
+.resim{
+    display: flex;
+    justify-content: center;
+}
+/*footer*/
+.footer{
+    display: flex;
+    
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.footer .logo{
+    background-color: black;
+    width: 300px;
+}
+.footer .logo h1{
+    font-size: 30px;
+     text-align: center;
+     font-weight: bold;
+ }
+ .footer .logo h1:hover{
+     color: white;
+     transition: 0.7s;
+ }
+ .footer .logo:hover{
+     background-color: black;
+     transition: 0.3 s;
+ }
+
+ .container-3{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3,1fr);
+    background-color: brown;
+    column-gap: 5px;
+    row-gap: 5px;
+
+ }
+ /* ürünlerimiz sayfası css */
+.altnav{
+    border: 1px solid;
+    border-style: groove;
+    border-radius: 10px;
+    background-color:white;
+    width: 100%;
+}
+.secenek{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*arama kısmı */
+.search{
+    display: flex;
+
+}
+.search ul{
+    list-style: none;
+}
+.search ul button{
+    color: white;
+    width: 50px;
+}
+ .altnav .secenek ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    
+   
+ }
+ .altnav .secenek ul li{
+    padding-right: 10px;
+ }
+ 
+ .altnav .secenek ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: small;
+   
+ }
+ .altnav .secenek ul li button{
+    border: 1px solid;
+    border-radius: 10px;
+    height: 30px;
+    background-color: rgb(6, 6, 6);
+
+ }
+ .altnav .secenek ul li button:hover{
+    background-color:cornflowerblue;
+    transition: 0.3s;
+ }
+ 
+
+ .urun{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 5px;
+    text-align: center;
+    margin-top: 10px;
+    row-gap: 5px;
+    
+ }
+ .urun .item img{
+    width: 300px;
+ }

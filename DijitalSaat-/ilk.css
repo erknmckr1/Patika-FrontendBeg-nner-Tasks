@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/background2.jpeg);
+    background-repeat: no-repeat; 
+    font-family: monospace;
+    height: 100vh;
+    overflow-x: hidden;
+
+
+
+}
+#saat {
+    border: 10px;
+    padding: 0;
+    margin-top: 10%;
+    font-size: 130px;
+    font-weight: 200;
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right,rgb(115, 157, 183),rgb(174, 85, 127));
+    padding :30px 70px;
+    min-width: 800px;
+    text-anchor: center;
+    position: relative;
+}
+
+

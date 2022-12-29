@@ -1,0 +1,40 @@
+body{
+    background-color: antiquewhite;
+    margin:30px;
+    line-height: 30px;
+    
+}
+.kısım-1{
+    display: flex;
+}
+.ilk-p{
+    width: 50%;
+   
+}
+.isim{
+    color: royalblue;
+}
+.hobi{
+    width: 50%;
+    
+}
+h4{
+    color: brown;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: cadetblue;
+    background-color: cadetblue;
+}
+.btn:hover{
+    background-color: chocolate;
+    transition: 0.5s;
+}

@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+.search{
+    background-color: #eeeeee;
+    border-spacing: 2px;
+    font-size: medium;
+    line-height: normal;
+    gap: 2px;
+    
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    margin-top: 2px;
+    gap: 2px;
+}
+.grid-items-1{
+    font-size: 15px;
+    background-color: #7EE5DA;
+}
+.grid-items-2{
+    font-size: 15px;
+    background-color:#70CCC2;
+}
+.grid-items-3{
+    font-size: 15px;
+    background-color: #62B3AA;
+    
+}
+footer{
+    margin-top: 15px;
+    font-size: 12px;
+}
+input{
+    
+    text-align: start;
+    cursor: text;
+    
+    border-width: 2px;
+   
+}

@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 30px;
+    line-height: 25px;
+    position: relative;
+    
+    
+    
+}  
+.xx{
+    
+    border: 2px solid rgb(126, 155, 30);
+   
+
+}
+.baslık img{
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 43px;
+   
+
+}
+.bilgi{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-right: 40px;
+    
+
+}
+.malzemeler{
+    margin-top: 20px;
+   
+     
+    
+}
+p{
+    color: rgb(44, 122, 108);
+    border-top: 2px solid;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+ul{
+    list-style-type:none;
+}
+h3{
+    margin-left: 10px;
+}
+h2{
+    margin-left: 40px;
+}

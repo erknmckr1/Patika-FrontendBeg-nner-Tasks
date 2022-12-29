@@ -1,0 +1,50 @@
+body{
+    background-color: antiquewhite;
+    margin:30px;
+    line-height: 30px;
+    box-sizing: border-box;
+    
+}
+.kısım-1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+
+.isim{
+    color: royalblue;
+}
+.hobi{
+    width: 50%;
+    padding: 30px;
+    
+}
+h4{
+    color: brown;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: cadetblue;
+    background-color: cadetblue;
+}
+.btn:hover{
+    background-color: chocolate;
+    transition: 0.5s;
+}
+img{
+    width: 600px;
+    height: 300px;
+}
+.sosyal{
+    padding: 30px;
+}
